@@ -1,0 +1,429 @@
+
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=757575]
+\definecolor[rulecolor][h=757575]
+%\definecolor[sectioncolor][h=397249]
+%\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[10pt, helvetica]
+
+\setupwhitespace[small]
+
+\setupblackrules[width=29.5mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace~}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setupcaptions[table][location=none]
+
+\setuptables[textwidth=max, HL=none]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[normal]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[angus-j.-ferraro]{Angus J. Ferraro}
+
+\placetable[none]{}
+\starttable[|l|l|]
+\HL
+\NC College of Engineering,
+\NC Email: a.j.ferraro@exeter.ac.uk
+\NC\AR
+\NC Mathematics and Physical Sciences
+\NC Telephone: +44 (0) 1392 725358
+\NC\AR
+\NC University of Exeter
+\NC Web:
+\useURL[url1][http://emps.exeter.ac.uk/mathematics/staff/ajf223][][emps.exeter.ac.uk/mathematics/staff/ajf223]\from[url1]
+\NC\AR
+\NC North Park Road,
+\NC Twitter:
+\useURL[url2][http://twitter.com/angusferraro][][angusferraro]\from[url2]
+\NC\AR
+\NC Exeter, EX4 4QF, UK
+\NC 
+\NC\AR
+\HL
+\stoptable
+
+\placetable[none]{}
+\starttable[|lp(0.88\textwidth)|]
+\HL
+\NC I am a physical climate scientist with interests in the terrestrial
+hydrological cycle and atmospheric radiative transfer. I use climate
+model simulations in conjunction with remote sensing observations to
+enhance fundamental physical understanding of the climate system. I am
+also interested in the emerging technology of climate geoengineering and
+how this interacts with conventional climate policy.
+\NC\AR
+\HL
+\stoptable
+
+\subsection[education]{Education}
+
+\startdescription{2010-2014}
+  {\bf PhD, Atmosphere, Oceans and Climate}, University of Reading,
+  Reading, UK
+
+  \useURL[url3][http://dx.doi.org/10.6084/m9.figshare.1014284][][Atmospheric
+  responses to geoengineering in the stratosphere]\from[url3]
+
+  Investigating the impacts of an enhanced stratospheric sulphate layer
+  on stratospheric dynamics and communication of these effects to the
+  troposphere. Supervisors: Dr.~Andrew Charlton-Perez and Prof.~Eleanor
+  Highwood.
+\stopdescription
+
+\startdescription{2007-2010}
+  {\bf BSc, Meteorology} (First Class Honours), University of Reading,
+  Reading, UK
+
+  Dissertation: Factors influencing the climate sensitivity parameter in
+  a zero-dimensional climate model. Supervisor: Prof.~Keith Shine.
+\stopdescription
+
+\subsection[employment]{Employment}
+
+\startdescription{2014 - present}
+  {\bf Research Fellow}, University of Exeter, Exeter, UK
+
+  {\em Process-Based Emergent Physical and Biogeochemical Feedbacks}
+
+  Constraints on the lapse rate, water vapour and cloud climate
+  feedbacks. Collaborators: Prof.~Mat Collins and Dr.~Hugo Lambert.
+\stopdescription
+
+\startdescription{2009}
+  {\bf Research assistant}, Met Office, Exeter, UK
+
+  {\em Impacts of Arctic sea ice retreat on ocean-atmosphere coupling}.
+  Supervisor: Dr.~Peili Wu.
+\stopdescription
+
+\subsection[competitive-funding]{Competitive Funding}
+
+\startdescription{2015}
+  {\bf EPSRC Vacation Bursary} to fund summer student (£2000)
+\stopdescription
+
+\startdescription{2011}
+  {\bf Travel grant} to attend 2nd Transdisciplinary Summer School on
+  Climate Engineering, Banff (USD 1000)
+\stopdescription
+
+\subsection[awards-and-recognition]{Awards and Recognition}
+
+\startdescription{Awards}
+  \useURL[url4][http://dx.doi.org/10.6084/m9.figshare.1428537][][Runner-up]\from[url4],
+  College of Engineering, Mathematics and Physical Sciences Early-Career
+  Researcher poster competition, 2015.
+
+  Overall Undergraduate Prize for academic excellence, University of
+  Reading, 2010
+\stopdescription
+
+\startdescription{Media}
+  \useURL[url5][http://www.theengineer.co.uk/in-depth/your-questions-answered-geoengineering/1018992.article][][Your
+  questions answered: geoengineering]\from[url5] (question-and-answer
+  including me, Stephen Salter, Richard Darton and Andrew
+  Charlton-Perez), The Engineer, 2014.
+
+  \useURL[url6][http://environmentalresearchweb.org/cws/article/news/55832][][Sulphate
+  geoengineering would harm tropical climate]\from[url6], Environmental
+  Research Web, 2014.
+
+  \useURL[url7][http://www.walker-institute.ac.uk/publications/brochures/WalkerHighlights2012WEB.pdf][][Reflecting
+  the Sun's energy to cool the planet]\from[url7], Walker Institute
+  Research Highlights, 2012.
+
+  \useURL[url8][http://dx.doi.org/10.1038/nclimate1407][][Aerosol
+  choices matter]\from[url8], {\em Nature Climate Change}, {\bf 2}, 75,
+  2012, doi:10.1038/nclimate1407.
+\stopdescription
+
+\subsection[teaching-experience]{Teaching Experience}
+
+\startdescription{2015}
+  {\bf Lecturer at University of Exeter Summer School on Global Climate
+  Change.} {\em Bringing it home - regional climate variability and
+  change.} July 2015
+
+  {\bf Supervision of summer student}. {\em Direct and indirect drivers
+  of precipitation change in a geoengineered world.} June-July 2015.
+\stopdescription
+
+\startdescription{2014-2015}
+  {\bf Co-supervision of MMath student} with Hugo Lambert (University of
+  Exeter) and contributions from Manoj Joshi (University of East Anglia)
+
+  {\em Geoengineering and the tropical overturning circulation}
+\stopdescription
+
+\startdescription{2011-2013}
+  {\bf Demonstrator/tutor} for undergraduates at Department of
+  Meteorology, University of Reading
+
+  {\em Introduction to Atmospheric Science}
+
+  {\em Fluid Dynamics of Atmosphere and Oceans}
+\stopdescription
+
+\subsection[invited-presentations]{Invited Presentations}
+
+\startdescription{2015}
+  {\em Bringing it home: regional climate change and variability}.
+  Lecture at University of Exeter International Summer School on Global
+  Climate Change: Environment, Technology and Society.
+\stopdescription
+
+\startdescription{2013}
+  \useURL[url9][http://dx.doi.org/10.6084/m9.figshare.1391985][][{\em Stratospheric
+  dynamics in a geoengineered world}]\from[url9]. Seminar at Department
+  of Chemistry, University of Cambridge.
+
+  {\em Geoengineering aerosols and how they might affect climate and
+  circulation}. IOP Environmental Physics Members' Day, London.
+\stopdescription
+
+\startdescription{2012}
+  {\em Atmospheric responses to geoengineering in the stratosphere}.
+  RMetS South-East local centre meeting, Reading.
+\stopdescription
+
+\subsection[selected-presentations]{Selected Presentations}
+
+\startdescription{2016}
+  {\em Classification of land-sea shifts in tropical precipitation using
+  temperature and moisture change}, (poster), Workshop on Atmospheric
+  Circulation and Regional Climate Change, University of Reading, UK.
+\stopdescription
+
+\startdescription{2015}
+  {\em Physical mechanisms of tropical climate feedbacks revealed by
+  temperature and moisture trends},
+  \useURL[url10][[http://dx.doi.org/10.6084/m9.figshare.1428537][][(poster)]\from[url10]
+  AGU Fall Meeting, San Francisco, USA.
+
+  {\em Physical mechanisms of tropical climate feedbacks revealed by
+  temperature and moisture trends},
+  \useURL[url11][[http://dx.doi.org/10.6084/m9.figshare.1428537][][(poster)]\from[url11]
+  CFMIP conference, Asilomar, USA.
+
+  {\em Physical mechanisms of tropical climate feedbacks revealed by
+  temperature and moisture trends},
+  \useURL[url12][http://dx.doi.org/10.6084/m9.figshare.1335975][][(poster)]\from[url12]
+  EGU General Assembly, Vienna, Austria.
+\stopdescription
+
+\startdescription{2013}
+  {\em Effects of different geoengineering aerosol choices on
+  stratospheric dynamics}, (poster) 3rd NCAS Chemistry-Climate
+  Interaction Meeting, Cambridge, UK.
+
+  {\em Impact of aerosol & dimmed-sun geoengineering on stratospheric
+  dynamics}, 3rd GeoMIP workshop, Potsdam, Germany.
+
+  {\em Atmospheric responses to stratospheric aerosol geoengineering},
+  EGU General Assembly, Vienna, Austria.
+\stopdescription
+
+\startdescription{2012}
+  {\em Stratospheric heating by geoengineering aerosols}, 2nd GeoMIP
+  workshop, Exeter, UK.
+\stopdescription
+
+\subsection[professional-activities]{Professional Activities}
+
+\startitemize[packed]
+\item
+  Peer reviewer for {\em Environmental Research Letters}, {\em Journal
+  of Geophysical Research} and others. Full review record available via
+  \useURL[url13][https://publons.com/author/589854/angus-ferraro\#profile][][Publons]\from[url13].
+\item
+  Grant application reviewer for US National Science Foundation.
+\stopitemize
+
+\startdescription{2015-present}
+  Member of American Geophysical Union
+\stopdescription
+
+\startdescription{2013-present}
+  Member of European Geoscience Union
+\stopdescription
+
+\startdescription{2010-present}
+  Member of Royal Meteorological Society
+\stopdescription
+
+\subsection[outreach]{Outreach}
+
+Personal
+\useURL[url14][http://angusferraro.wordpress.com][][blog]\from[url14]
+summarising recent advances in climate science; contributions to the WCD
+blog (Department of Meteorology, University of Reading), the GeoBlog
+(Oxford Geoengineering Programme, University of Oxford) and the GeoLog
+(European Geosciences Union).
+
+\startdescription{2015}
+  Contributor on geoengineering for Simon Clark's YouTube series,
+  \quote{Crash Course in Atmospheric Physics}.
+
+  \quote{Britain Needs Scientists} schools event, University of Exeter.
+\stopdescription
+
+\startdescription{2013}
+  Runner-up in
+  \useURL[url15][http://earthj13.imascientist.org.uk/profile/angusferraro/][][I'm
+  a Scientist, Get Me Out of Here]\from[url15].
+
+  Finalist in University of Reading \quote{3-minute thesis} competition.
+\stopdescription
+
+\startdescription{2011-2013}
+  Volunteer classroom science assistant at Highdown School, Reading.
+\stopdescription
+
+\subsection[responsibilities]{Responsibilities}
+
+\startdescription{2014-present}
+  Convenor of Physical Climate Research Group at Exeter Climate Systems,
+  University of Exeter
+\stopdescription
+
+\startdescription{2014}
+  Organiser of Exeter Climate Systems collaborative research day.
+\stopdescription
+
+\startdescription{2011-2013}
+  Convenor of Stratosphere & Climte Research Group and Strathour seminar
+  series at Department of Meteorology, University of Reading
+\stopdescription
+
+\startdescription{2011}
+  Member of \quote{Visiting Scientist} committee at Department of
+  Meteorology, University of Reading (visitor: Kevin Trenberth)
+\stopdescription
+
+\subsection[publications]{Publications}
+
+Ferraro, A. J. and H. G. Griffiths, 2016: Quantifying the
+temperature-independent effect of stratospheric aerosol geoengineering
+on global-mean precipitation in a multi- model ensemble.
+{\em Environmental Research Letters}, {\bf 11}, 034012,
+doi:\useURL[url16][http://10.1088/1748-9326/11/3/034012][][10.1088/1748-9326/11/3/034012]\from[url16].
+
+Ferraro, A. J., F. H. Lambert, M. Collins, and G. Miles, 2015: Physical
+mechanisms of tropical climate feedbacks revealed by temperature and
+moisture trends. {\em Journal of Climate}, {\bf 28}, 8968-8987,
+doi:\useURL[url17][http://10.1175/JCLI-D-15-0253.1][][10.1175/JCLI-D-15-0253.1]\from[url17].
+
+Ferraro, A. J., M. Collins, and F. H. Lambert, 2015: A hiatus in the
+stratosphere?. {\em Nature Climate Change}, {\bf 5}, 497-498,
+doi:\useURL[url18][http://dx.doi.org/10.1038/nclimate2624][][10.1038/nclimate2624]\from[url18].
+
+\startblockquote
+Citations: 1
+\stopblockquote
+
+Ferraro, A. J., A. J. Charlton-Perez, and E. J. Highwood, 2015:
+Stratospheric dynamics and midlatitude jets under geoengineering with
+space mirrors and sulfate and titania aerosols. {\em J. Geophys. Res.
+Atmos.}, {\bf 120}, 414-429,
+doi:\useURL[url19][http://dx.doi.org/10.1002/2014jd022734][][10.1002/2014jd022734]\from[url19].
+
+Ferraro, A. J., A. J. Charlton-Perez, and E. J. Highwood, 2014: A
+Risk-Based Framework for Assessing the Effectiveness of Stratospheric
+Aerosol Geoengineering. {\em PLoS ONE}, {\bf 9}, e88849,
+doi:\useURL[url20][http://dx.doi.org/10.1371/journal.pone.0088849][][10.1371/journal.pone.0088849]\from[url20].
+
+\startblockquote
+Citations: 3
+\stopblockquote
+
+\startblockquote
+Part of the PLOS \quote{Responding to Climate Change} collection
+\stopblockquote
+
+Ferraro, A. J., E. J. Highwood, and A. J. Charlton-Perez, 2014: Weakened
+tropical circulation and reduced precipitation in response to
+geoengineering. {\em Environ. Res. Lett.}, {\bf 9}, 014001,
+doi:\useURL[url21][http://dx.doi.org/10.1088/1748-9326/9/1/014001][][10.1088/1748-9326/9/1/014001]\from[url21].
+
+\startblockquote
+Citations: 9
+\stopblockquote
+
+\startblockquote
+One of 25 highlights of 2014 in {\em Environmental Research Letters}
+\stopblockquote
+
+\startblockquote
+Extensive media coverage including BBC, Guardian, The Independent,
+phys.org, New Zealand Herald, Bangkok Post, Hindustan Times.
+\stopblockquote
+
+Ferraro, A. J., E. J. Highwood, and A. J. Charlton-Perez, 2011:
+Stratospheric heating by potential geoengineering aerosols.
+{\em Geophysical Research Letters}, {\bf 38},
+doi:\useURL[url22][http://dx.doi.org/10.1029/2011gl049761][][10.1029/2011gl049761]\from[url22].
+
+\startblockquote
+Citations: 13
+\stopblockquote
+
+\startblockquote
+Research Highlight in {\em Nature Climate Change}
+\stopblockquote
+
+\stoptext

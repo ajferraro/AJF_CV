@@ -1,0 +1,223 @@
+(/misc/texlive/2013/texmf-dist/tex/context/base/cont-yes.mkiv
+
+ConTeXt  ver: 2013.05.28 00:36 MKIV current  fmt: 2015.6.22  int: english/english
+
+system          > 'cont-new.mkiv' loaded
+(/misc/texlive/2013/texmf-dist/tex/context/base/cont-new.mkiv)
+system          > files > jobname 'cv', input './cv', result 'cv'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+(/scratch/ajferraro.github.io/cv/cv.tex
+colors          > defining > unknown library 'hex'
+fonts           > typescripts > unknown library 'loc'
+(/misc/texlive/2013/texmf-dist/tex/context/base/type-imp-texgyre.mkiv){/misc/texlive/2013/texmf-dist/fonts/map/dvips/lm/lm-math.map}{/misc/texlive/2013/texmf-dist/fonts/map/dvips/lm/lm-rm.map}{/misc/texlive/2013/texmf-dist/fonts/map/pdftex/context/mkiv-base.map}
+structure       > sectioning > section @ level 3 : 0.0.1 -> Angus J. Ferraro
+floatblocks     > '1' placed
+
+Underfull \vbox (badness 10000) detected at line 109
+
+\vbox(73.36014+0.0)x425.6556, direction TLT
+.\vbox(7.29+0.0)x425.6556, direction TLT
+..\hbox(7.29+2.18)x425.6556, glue set 0.98029, direction TLT
+...\whatsit
+....\localinterlinepenalty=0
+....\localbrokenpenalty=0
+....\localleftbox=null
+....\localrightbox=null
+...\hbox(0.0+0.0)x0.0, direction TLT
+...\3>helvetica-10pt-ss-tf-0--0 I
+...\glue 2.78
+...\3>helvetica-10pt-ss-tf-0--0 a
+...etc.
+..\penalty 2100
+..\glue(\baselineskip) 5.17203
+..\hbox(7.32+2.18)x425.6556, glue set 1.02728, direction TLT
+...\3>helvetica-10pt-ss-tf-0--0 p
+...\3>helvetica-10pt-ss-tf-0--0 h
+...\3>helvetica-10pt-ss-tf-0--0 e
+...\3>helvetica-10pt-ss-tf-0--0 r
+...\3>helvetica-10pt-ss-tf-0--0 i
+...etc.
+..\glue(\baselineskip) 5.17203
+..etc.
+
+floatblocks     > '2' placed
+structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Education
+structure       > sectioning > subsection @ level 4 : 0.0.1.2 -> Employment
+structure       > sectioning > subsection @ level 4 : 0.0.1.3 -> Competitive Funding
+structure       > sectioning > subsection @ level 4 : 0.0.1.4 -> Awards and Recognition
+
+Overfull \hbox (5.11052pt too wide) in paragraph at lines 177--181
+ [][]\3>helvetica-10pt-ss-bf-0--0 Your ques-tions an-swered: geo-engi-neer-ing \3>helvetica-10pt-ss-tf-0--0 (ques-tion-and-an-swer in-clud-ing me, Stephen
+
+\hbox(10.56389+4.10814)x483.69687, glue set - 1.0, direction TLT
+.\glue(\leftskip) 91.0488
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(10.56389+4.10814)x0.0, glue set - 91.0488fil, direction TLT
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\hbox(10.56389+4.10814)x91.0488, direction TLT
+...\hbox(10.56389+4.10814)x91.0488, glue set 39.83385fil, direction TLT []
+.\3>helvetica-10pt-ss-bf-0--0 Y
+.\kern -0.7
+.etc.
+
+backend         > xmp > using file '/misc/texlive/2013/texmf-dist/tex/context/base/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1
+structure       > sectioning > subsection @ level 4 : 0.0.1.5 -> Teaching Experience
+
+Overfull \hbox (1.81726pt too wide) in paragraph at lines 214--216
+ [][]\3>helvetica-10pt-ss-bf-0--0 Demon-stra-tor/tu-tor \3>helvetica-10pt-ss-tf-0--0 for un-der-grad-u-ates at De-part-ment of Me-te-o-rol-ogy, Uni-ver-sity of Read-
+
+\hbox(10.56389+4.10814)x483.69687, glue set - 1.0, direction TLT
+.\glue(\leftskip) 91.0488
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(10.56389+4.10814)x0.0, glue set - 91.0488fil, direction TLT
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\hbox(10.56389+4.10814)x91.0488, direction TLT
+...\hbox(10.56389+4.10814)x91.0488, glue set 39.83385fil, direction TLT []
+.\3>helvetica-10pt-ss-bf-0--0 D
+.\3>helvetica-10pt-ss-bf-0--0 e
+.etc.
+
+structure       > sectioning > subsection @ level 4 : 0.0.1.6 -> Invited Presentations
+structure       > sectioning > subsection @ level 4 : 0.0.1.7 -> Selected Presentations
+pages           > flushing realpage 2, userpage 2
+structure       > sectioning > subsection @ level 4 : 0.0.1.8 -> Professional Activities
+structure       > sectioning > subsection @ level 4 : 0.0.1.9 -> Outreach
+structure       > sectioning > subsection @ level 4 : 0.0.1.10 -> Responsibilities
+structure       > sectioning > subsection @ level 4 : 0.0.1.11 -> Publications
+
+Overfull \hbox (6.79018pt too wide) in paragraph at lines 366--370
+\3>helvetica-10pt-ss-tf-0--0 re-vealed by tem-per-a-ture and mois-ture trends. \3>helvetica-10pt-ss-sl-0--0 Jour-nal of Cli-mate\3>helvetica-10pt-ss-tf-0--0 , \3>helvetica-10pt-ss-bf-0--0 28\3>helvetica-10pt-ss-tf-0--0 , 8968-8987, doi:\3>helvetica-10pt-ss-bf-0--0 10.1175/JCLI-D-15-0253.1\3>helvetica-10pt-ss-tf-0--0 . 
+
+\hbox(7.47+2.18)x483.69687, glue set - 1.0, direction TLT
+.\3>helvetica-10pt-ss-tf-0--0 r
+.\kern -0.09999
+.\3>helvetica-10pt-ss-tf-0--0 e
+.\discretionary
+..\3>helvetica-10pt-ss-tf-0--0 -
+.\3>helvetica-10pt-ss-tf-0--0 v
+.etc.
+
+pages           > flushing realpage 3, userpage 3
+
+Overfull \hbox (21.54724pt too wide) in paragraph at lines 385--389
+\3>helvetica-10pt-ss-tf-0--0 Ef-fec-tive-ness of Stratos-pheric Aerosol Geo-engi-neer-ing. \3>helvetica-10pt-ss-sl-0--0 PLoS ONE\3>helvetica-10pt-ss-tf-0--0 , \3>helvetica-10pt-ss-bf-0--0 9\3>helvetica-10pt-ss-tf-0--0 , e88849, doi:\3>helvetica-10pt-ss-bf-0--0 10.1371/jour-nal.pone.0088849\3>helvetica-10pt-ss-tf-0--0 . 
+
+\hbox(7.47+2.18)x483.69687, glue set - 1.0, direction TLT
+.\3>helvetica-10pt-ss-tf-0--0 E
+.\3>helvetica-10pt-ss-tf-0--0 ﬀ (ligature f-f)
+.\3>helvetica-10pt-ss-tf-0--0 e
+.\3>helvetica-10pt-ss-tf-0--0 c
+.\discretionary
+..\3>helvetica-10pt-ss-tf-0--0 -
+.etc.
+
+pages           > flushing realpage 4, userpage 4
+ ) )</misc/texlive/2013/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bolditalic.otf></misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-italic.otf></misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf></misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf>
+
+system          > files > start used files
+
+used files      >    1: filename=cont-yes.mkiv filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/base/cont-yes.mkiv usedmethod=database
+used files      >    2: filename=cont-new.mkiv filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/base/cont-new.mkiv usedmethod=database
+used files      >    3: filename=lang-us.lua filetype=lua foundname=/misc/texlive/2013/texmf-dist/tex/context/patterns/lang-us.lua usedmethod=database
+used files      >    4: filename=/scratch/ajferraro.github.io/cv/cv.tex foundname=/scratch/ajferraro.github.io/cv/cv.tex usedmethod=direct
+used files      >    5: filename=type-imp-texgyre.mkiv filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/base/type-imp-texgyre.mkiv usedmethod=database
+used files      >    6: filename=lm.lfg filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/fonts/lm.lfg usedmethod=database
+used files      >    7: filename=lm-math.lfg filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/fonts/lm-math.lfg usedmethod=database
+used files      >    8: filename=lm-math.map filetype=map format=map foundname=/misc/texlive/2013/texmf-dist/fonts/map/dvips/lm/lm-math.map usedmethod=database
+used files      >    9: filename=lm-rm.map filetype=map format=map foundname=/misc/texlive/2013/texmf-dist/fonts/map/dvips/lm/lm-rm.map usedmethod=database
+used files      >   10: filename=mkiv-base.map filetype=map format=map foundname=/misc/texlive/2013/texmf-dist/fonts/map/pdftex/context/mkiv-base.map usedmethod=database
+used files      >   11: filename=texgyreheros-regular filetype=otf format=otf foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf usedmethod=database
+used files      >   12: filename=latinmodern-math.otf filetype=opentypefonts foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+used files      >   13: filename=latinmodern-math.otf filetype=otf format=otf foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+used files      >   14: filename=texgyreheros-bold filetype=otf format=otf foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf usedmethod=database
+used files      >   15: filename=texgyreheros-italic filetype=otf format=otf foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-italic.otf usedmethod=database
+used files      >   16: filename=lpdf-pdx.xml filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/base/lpdf-pdx.xml usedmethod=database
+used files      >   17: filename=texgyreheros-bolditalic filetype=otf format=otf foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bolditalic.otf usedmethod=database
+
+system          > files > stop used files
+
+
+system          > structure > start used structure
+
+used structure  > text: cv
+
+system          > structure > stop used structure
+
+
+system          > files > start used files
+
+used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/base/cont-yes.mkiv usedmethod=database
+used file       >    2: filename=cont-new.mkiv filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/base/cont-new.mkiv usedmethod=database
+used file       >    3: filename=lang-us.lua filetype=lua foundname=/misc/texlive/2013/texmf-dist/tex/context/patterns/lang-us.lua usedmethod=database
+used file       >    4: filename=/scratch/ajferraro.github.io/cv/cv.tex foundname=/scratch/ajferraro.github.io/cv/cv.tex usedmethod=direct
+used file       >    5: filename=type-imp-texgyre.mkiv filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/base/type-imp-texgyre.mkiv usedmethod=database
+used file       >    6: filename=lm.lfg filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/fonts/lm.lfg usedmethod=database
+used file       >    7: filename=lm-math.lfg filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/fonts/lm-math.lfg usedmethod=database
+used file       >    8: filename=lm-math.map filetype=map format=map foundname=/misc/texlive/2013/texmf-dist/fonts/map/dvips/lm/lm-math.map usedmethod=database
+used file       >    9: filename=lm-rm.map filetype=map format=map foundname=/misc/texlive/2013/texmf-dist/fonts/map/dvips/lm/lm-rm.map usedmethod=database
+used file       >   10: filename=mkiv-base.map filetype=map format=map foundname=/misc/texlive/2013/texmf-dist/fonts/map/pdftex/context/mkiv-base.map usedmethod=database
+used file       >   11: filename=texgyreheros-regular filetype=otf format=otf foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf usedmethod=database
+used file       >   12: filename=latinmodern-math.otf filetype=opentypefonts foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+used file       >   13: filename=latinmodern-math.otf filetype=otf format=otf foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+used file       >   14: filename=texgyreheros-bold filetype=otf format=otf foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf usedmethod=database
+used file       >   15: filename=texgyreheros-italic filetype=otf format=otf foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-italic.otf usedmethod=database
+used file       >   16: filename=lpdf-pdx.xml filetype=tex foundname=/misc/texlive/2013/texmf-dist/tex/context/base/lpdf-pdx.xml usedmethod=database
+used file       >   17: filename=texgyreheros-bolditalic filetype=otf format=otf foundname=/misc/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bolditalic.otf usedmethod=database
+
+system          > files > stop used files
+
+
+system          > options > start commandline options
+
+used option     > currentrun="1"
+used option     > fulljobname="./cv.tex"
+used option     > input="./cv.tex"
+used option     > kindofrun="1"
+used option     > maxnofruns="8"
+used option     > no-parse-first-line="true"
+
+system          > options > stop commandline options
+
+system          > options > start commandline files
+
+used file       >    1: ./cv.tex
+
+system          > options > stop commandline files
+
+
+
+mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: readable: '/misc/texlive/2013/texmf-var/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9' | readable+writable: '/home/links/ajf223/.texlive2013/texmf-var/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9'
+mkiv lua stats  > resource resolver: loadtime 0.071 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 17 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 329 modules (0.150 sec), 69 tables (0.000 sec), 398 chunks (0.150 sec)
+mkiv lua stats  > cleaned up reserved nodes: 44 nodes, 9 lists of 441
+mkiv lua stats  > node memory usage: 2 glue, 2 penalty, 12 attribute, 53 glue_spec, 3 attribute_list
+mkiv lua stats  > node list callback tasks: 6 unique task lists, 6 instances (re)created, 986 calls
+mkiv lua stats  > h-node processing time: 0.062 seconds including kernel
+mkiv lua stats  > attribute processing time: 0.014 seconds front- and backend
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > loaded patterns: en::2, load time: 0.000
+mkiv lua stats  > jobdata time: 0.005 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: 1820 direct, 887 indirect, 2707 total
+mkiv lua stats  > randomizer: resumed with value 0.66479346792437
+mkiv lua stats  > lxml preparation time: 0.000 seconds, 0 nodes, 15 lpath calls, 0 cached calls
+mkiv lua stats  > interactive elements: 22 references, 40 destinations
+mkiv lua stats  > result saved in file: cv.pdf, compresslevel 3, objectcompreslevel 3
+mkiv lua stats  > loaded fonts: 5 files: latinmodern-math.otf (experimental), texgyreheros-bold.otf, texgyreheros-bolditalic.otf, texgyreheros-italic.otf, texgyreheros-regular.otf
+mkiv lua stats  > fonts load time: 0.139 seconds 
+mkiv lua stats  > pdf annotations: 22 embedded, 22 unique
+mkiv lua stats  > luatex banner: this is luatex, version beta-0.76.0-2013061708  (tex live 2013) (rev 4627)
+mkiv lua stats  > control sequences: 37706 of 65536 + 100000
+mkiv lua stats  > current memory usage: 79 MB (ctx: 78 MB)
+mkiv lua stats  > runtime: 0.691 seconds, 4 processed pages, 4 shipped pages, 5.789 pages/second
+
